@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUp2"
+    android:background="@drawable/backgroundlogin">
+    <TextView
+        android:id="@+id/signtxtheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="KSK TRUST"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
+
+
+        />
+    <EditText
+        android:id="@+id/signUsername"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signtxtheader"
+        android:hint="Enter Username"
+        android:textColorHint="@color/white"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:minLines="1"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/signPassword"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUsername"
+        android:hint="Enter Password"
+        android:textColorHint="@color/white"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:maxLines="1"
+        android:minLines="1"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/signPasswordagain"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signPassword"
+        android:hint="Enter password again"
+        android:textColorHint="@color/white"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:maxLines="1"
+        android:minLines="1"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        />
+
+    <Switch
+        android:id="@+id/switchsignup"
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:text="Remember Me   "
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_below="@+id/signPasswordagain"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+
+
+
+
+        />
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtheader"
+        android:layout_toRightOf="@+id/signPassword"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="170dp"
+        android:text="SIGN UP"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/signLogInBUtton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignUpButton"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/signPassword"
+        android:text="Log In"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#808080"
+        android:textColor="@color/white"
+
+
+
+        />
+
+
+</RelativeLayout>
